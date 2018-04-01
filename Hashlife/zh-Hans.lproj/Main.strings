@@ -1,0 +1,402 @@
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "0EN-cH-om1"; */
+"0EN-cH-om1.text" = "0.0";
+
+/* Class = "UILabel"; text = "256"; ObjectID = "10E-3d-RvZ"; */
+"10E-3d-RvZ.text" = "256";
+
+/* Class = "UILabel"; text = "Use Custom Rule Set"; ObjectID = "1UP-7b-Hwt"; */
+"1UP-7b-Hwt.text" = "自定义规则";
+
+/* Class = "UITabBarItem"; title = "Patterns"; ObjectID = "1eu-Jd-6qO"; */
+"1eu-Jd-6qO.title" = "图案";
+
+/* Class = "UILabel"; text = "Population:"; ObjectID = "2PB-hf-bC8"; */
+"2PB-hf-bC8.text" = "人口:";
+
+/* Class = "UIViewController"; title = "Cell"; ObjectID = "2pa-m0-ivs"; */
+"2pa-m0-ivs.title" = "细胞";
+
+/* Class = "UINavigationItem"; title = "Editor"; ObjectID = "379-t2-7l5"; */
+"379-t2-7l5.title" = "图案编辑器";
+
+/* Class = "UISegmentedControl"; 37a-65-mfJ.segmentTitles[0] = "Faster"; ObjectID = "37a-65-mfJ"; */
+"37a-65-mfJ.segmentTitles[0]" = "更快";
+
+/* Class = "UISegmentedControl"; 37a-65-mfJ.segmentTitles[1] = "Balanced"; ObjectID = "37a-65-mfJ"; */
+"37a-65-mfJ.segmentTitles[1]" = "正常";
+
+/* Class = "UISegmentedControl"; 37a-65-mfJ.segmentTitles[2] = "Better"; ObjectID = "37a-65-mfJ"; */
+"37a-65-mfJ.segmentTitles[2]" = "更好";
+
+/* Class = "UITableViewController"; title = "Auto Speed View Controller"; ObjectID = "3R4-3y-taI"; */
+"3R4-3y-taI.title" = "Auto Speed View Controller";
+
+/* Class = "UILabel"; text = "0 x 0"; ObjectID = "3WQ-Bh-fLb"; */
+"3WQ-Bh-fLb.text" = "0 x 0";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "3eh-aE-OK0"; */
+"3eh-aE-OK0.text" = "标题";
+
+/* Class = "UISegmentedControl"; 3mw-Qv-vbf.segmentTitles[0] = "Small"; ObjectID = "3mw-Qv-vbf"; */
+"3mw-Qv-vbf.segmentTitles[0]" = "小";
+
+/* Class = "UISegmentedControl"; 3mw-Qv-vbf.segmentTitles[1] = "Medium"; ObjectID = "3mw-Qv-vbf"; */
+"3mw-Qv-vbf.segmentTitles[1]" = "中";
+
+/* Class = "UISegmentedControl"; 3mw-Qv-vbf.segmentTitles[2] = "Large"; ObjectID = "3mw-Qv-vbf"; */
+"3mw-Qv-vbf.segmentTitles[2]" = "大";
+
+/* Class = "UITabBarItem"; title = "Simulation"; ObjectID = "46W-92-zrB"; */
+"46W-92-zrB.title" = "运行";
+
+/* Class = "UILabel"; text = "Author:"; ObjectID = "5fV-Zb-8sA"; */
+"5fV-Zb-8sA.text" = "作者:";
+
+/* Class = "UITextField"; placeholder = "Enter your name here"; ObjectID = "5pE-3e-48e"; */
+"5pE-3e-48e.placeholder" = "请在此输入您的姓名";
+
+/* Class = "UISegmentedControl"; 6Z2-PZ-CvA.segmentTitles[0] = "Pan"; ObjectID = "6Z2-PZ-CvA"; */
+"6Z2-PZ-CvA.segmentTitles[0]" = "拖拽";
+
+/* Class = "UISegmentedControl"; 6Z2-PZ-CvA.segmentTitles[1] = "Draw"; ObjectID = "6Z2-PZ-CvA"; */
+"6Z2-PZ-CvA.segmentTitles[1]" = "画笔";
+
+/* Class = "UISegmentedControl"; 6Z2-PZ-CvA.segmentTitles[2] = "Erase"; ObjectID = "6Z2-PZ-CvA"; */
+"6Z2-PZ-CvA.segmentTitles[2]" = "橡皮";
+
+/* Class = "UILabel"; text = "Name Label"; ObjectID = "7F3-9j-i0p"; */
+"7F3-9j-i0p.text" = "名字";
+
+/* Class = "UILabel"; text = "250 millis"; ObjectID = "7fz-Rq-8gj"; */
+"7fz-Rq-8gj.text" = "250 毫秒";
+
+/* Class = "UILabel"; text = "Name Label"; ObjectID = "7q4-6n-4eW"; */
+"7q4-6n-4eW.text" = "名字";
+
+/* Class = "UIBarButtonItem"; title = "Save Copy"; ObjectID = "80B-Qj-rVz"; */
+"80B-Qj-rVz.title" = "另存";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "8oa-V9-baU"; */
+"8oa-V9-baU.text" = "标题";
+
+/* Class = "UIViewController"; title = "Patterns"; ObjectID = "9C1-Nq-9tY"; */
+"9C1-Nq-9tY.title" = "图案";
+
+/* Class = "UILabel"; text = "Anonymous"; ObjectID = "9Qd-SA-RQT"; */
+"9Qd-SA-RQT.text" = "无名英雄";
+
+/* Class = "UILabel"; text = "Grid Visible:"; ObjectID = "9rw-4k-y8n"; */
+"9rw-4k-y8n.text" = "网格可见:";
+
+/* Class = "UILabel"; text = "Alpha:"; ObjectID = "AQo-Y9-g2g"; */
+"AQo-Y9-g2g.text" = "透明度:";
+
+/* Class = "UIViewController"; title = "Simulation View Controller"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "运行";
+
+/* Class = "UIViewController"; title = "Grid"; ObjectID = "CAA-0c-Xn3"; */
+"CAA-0c-Xn3.title" = "网格";
+
+/* Class = "UILabel"; text = "Generation:"; ObjectID = "CHs-Ln-RtR"; */
+"CHs-Ln-RtR.text" = "代:";
+
+/* Class = "UISearchBar"; placeholder = "Search for patterns here"; ObjectID = "DCX-8H-3TQ"; */
+"DCX-8H-3TQ.placeholder" = "在此搜索图案";
+
+/* Class = "UISearchBar"; DCX-8H-3TQ.scopeButtonTitles[0] = "Name"; ObjectID = "DCX-8H-3TQ"; */
+"DCX-8H-3TQ.scopeButtonTitles[0]" = "名字";
+
+/* Class = "UISearchBar"; DCX-8H-3TQ.scopeButtonTitles[1] = "Author"; ObjectID = "DCX-8H-3TQ"; */
+"DCX-8H-3TQ.scopeButtonTitles[1]" = "作者";
+
+/* Class = "UISearchBar"; DCX-8H-3TQ.scopeButtonTitles[2] = "Size"; ObjectID = "DCX-8H-3TQ"; */
+"DCX-8H-3TQ.scopeButtonTitles[2]" = "大小";
+
+/* Class = "UINavigationItem"; title = "Instrumentation"; ObjectID = "DHk-46-Pjh"; */
+"DHk-46-Pjh.title" = "控制";
+
+/* Class = "UILabel"; text = "Name Label"; ObjectID = "DuP-8B-hYz"; */
+"DuP-8B-hYz.text" = "名字标签";
+
+/* Class = "UIViewController"; title = "Pattern Viewer"; ObjectID = "EIv-9P-77M"; */
+"EIv-9P-77M.title" = "图案鉴赏";
+
+/* Class = "UILabel"; text = "31 x 45"; ObjectID = "FcQ-Pt-ze8"; */
+"FcQ-Pt-ze8.text" = "31 x 45";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "HWT-0e-4aU"; */
+"HWT-0e-4aU.text" = "1";
+
+/* Class = "UITableViewController"; title = "Rule Set Table View Controller"; ObjectID = "I7d-Ye-fPs"; */
+"I7d-Ye-fPs.title" = "Rule Set Table View Controller";
+
+/* Class = "UILabel"; text = "State Label"; ObjectID = "Ika-fb-ZBr"; */
+"Ika-fb-ZBr.text" = "状态标签";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Jat-SM-pMl"; */
+"Jat-SM-pMl.text" = "0";
+
+/* Class = "UILabel"; text = "23s/3b"; ObjectID = "K4f-j5-aSX"; */
+"K4f-j5-aSX.text" = "23s/3b";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "KRw-eL-I0f"; */
+"KRw-eL-I0f.text" = "0";
+
+/* Class = "UILabel"; text = "Rule Set:"; ObjectID = "Krt-rd-7Ry"; */
+"Krt-rd-7Ry.text" = "当前规则:";
+
+/* Class = "UILabel"; text = "Author:\tUnknown"; ObjectID = "LNd-S0-nF5"; */
+"LNd-S0-nF5.text" = "作者:\t未知";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "LkB-Gj-A5o"; */
+"LkB-Gj-A5o.text" = "0.0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "MeL-bV-6nz"; */
+"MeL-bV-6nz.text" = "0";
+
+/* Class = "UILabel"; text = "Grid Visible Threshold"; ObjectID = "Mpx-Zf-aFG"; */
+"Mpx-Zf-aFG.text" = "网格可见度上限";
+
+/* Class = "UILabel"; text = "Population:"; ObjectID = "OAP-sD-g6F"; */
+"OAP-sD-g6F.text" = "人口:";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "Ore-sD-mu8"; */
+"Ore-sD-mu8.text" = "1";
+
+/* Class = "UITabBarItem"; title = "Instrumentation"; ObjectID = "P1S-Ei-opP"; */
+"P1S-Ei-opP.title" = "控制";
+
+/* Class = "UILabel"; text = "Name Label"; ObjectID = "P96-UJ-BJc"; */
+"P96-UJ-BJc.text" = "名字标签";
+
+/* Class = "UITabBarItem"; title = "Statistics"; ObjectID = "PbW-FH-awx"; */
+"PbW-FH-awx.title" = "统计";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "PjE-pA-QU3"; */
+"PjE-pA-QU3.text" = "0";
+
+/* Class = "UILabel"; text = "0%"; ObjectID = "QSN-H7-LWL"; */
+"QSN-H7-LWL.text" = "0%";
+
+/* Class = "UILabel"; text = "Rule Label"; ObjectID = "QiI-y8-erU"; */
+"QiI-y8-erU.text" = "规则标签";
+
+/* Class = "UILabel"; text = "Current Rule:"; ObjectID = "R8V-Np-Yki"; */
+"R8V-Np-Yki.text" = "当前规则:";
+
+/* Class = "UITextView"; text = "Designate number of steps per frame and override the auto speed mechanism. Not recommended, but this can be useful."; ObjectID = "TGe-gW-nDr"; */
+"TGe-gW-nDr.text" = "手动指定每次计算的代数，在通常情况下不建议更改因为可能会造成应用运行缓慢。在特定情况下可以为了更快的计算而进行适当的调整";
+
+/* Class = "UINavigationItem"; title = "Info Editor"; ObjectID = "TnO-U4-Ffi"; */
+"TnO-U4-Ffi.title" = "图案信息编辑器";
+
+/* Class = "UILabel"; text = "0 x 0"; ObjectID = "Tv4-vT-wwR"; */
+"Tv4-vT-wwR.text" = "0 x 0";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "TyZ-NF-3TC"; */
+"TyZ-NF-3TC.title" = "保存";
+
+/* Class = "UITextView"; text = "Living rule is the number of neighbors required for a cell to stay alive, while born rule is the number of cells required for a cell to be born."; ObjectID = "U5a-W1-vC8"; */
+"U5a-W1-vC8.text" = "Living rule 是决定某个特定的细胞能否在下一代中仍然存活的邻居的个数, 而 born rule 决定一个细胞起而复生的条件";
+
+/* Class = "UITextView"; text = "With large number of cells even this accelerated version would take some time. Override allowed rendering duration to cancel rendering when the app starts to slow down. It is not recommended under normal circumstances. "; ObjectID = "Uhc-Ki-GAh"; */
+"Uhc-Ki-GAh.text" = "当您觉得本应用程序运行缓慢时，可以适当将这项指标向左边调一些，这样的话程序将以渲染出的图像质量以代价进行加速。反之，向右边调便可以以牺牲运行速度为代价提高图形渲染细节";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "V0H-Si-KH5"; */
+"V0H-Si-KH5.title" = "取消";
+
+/* Class = "UIViewController"; title = " Auto Speed"; ObjectID = "WbK-1Y-WOJ"; */
+"WbK-1Y-WOJ.title" = "速度调节";
+
+/* Class = "UIBarButtonItem"; title = "Network"; ObjectID = "Wf1-eQ-ZGC"; */
+"Wf1-eQ-ZGC.title" = "网络";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "XRb-We-Alh"; */
+"XRb-We-Alh.text" = "0.0";
+
+/* Class = "UILabel"; text = "Generation:"; ObjectID = "XZ4-Zz-kxb"; */
+"XZ4-Zz-kxb.text" = "代数:";
+
+/* Class = "UIViewController"; title = "Background"; ObjectID = "ZGe-KL-Lw4"; */
+"ZGe-KL-Lw4.title" = "背景";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "aJS-qT-Z8w"; */
+"aJS-qT-Z8w.text" = "副标题";
+
+/* Class = "UITextView"; text = "The description of the .rle, .lif, or .life goes here"; ObjectID = "avE-kH-VYv"; */
+"avE-kH-VYv.text" = "此处显示的是图案文件（.rle, .lif 或 .life）的描述信息";
+
+/* Class = "UILabel"; text = "Empty Nodes:"; ObjectID = "azK-H3-ELn"; */
+"azK-H3-ELn.text" = "休眠（空）细胞:";
+
+/* Class = "UINavigationController"; title = "Instrumentation"; ObjectID = "b0d-65-u4N"; */
+"b0d-65-u4N.title" = "控制";
+
+/* Class = "UILabel"; text = "Constructing Patterns Data Base..."; ObjectID = "b60-CG-KgM"; */
+"b60-CG-KgM.text" = "初始化图案数据库...";
+
+/* Class = "UITableViewController"; title = "Online Patterns"; ObjectID = "cBP-kC-KsC"; */
+"cBP-kC-KsC.title" = "云端图案库";
+
+/* Class = "UITextView"; text = "Warning: using the custom rule set would result in all memoized result for the default rule set to be removed. This means that the algorithm will inevitably slow down."; ObjectID = "cCc-my-D24"; */
+"cCc-my-D24.text" = "警告: 当你改变规则时将会永久清除当前所缓存过的所有图案进化记录表。这样将会造成程序速度下降。不过不用担心，在新的记录表激活后速度将恢复正常";
+
+/* Class = "UILabel"; text = "Auto Speed"; ObjectID = "cZ1-T0-niV"; */
+"cZ1-T0-niV.text" = "速度调节";
+
+/* Class = "UISegmentedControl"; cyT-iC-xQR.segmentTitles[0] = "Pan"; ObjectID = "cyT-iC-xQR"; */
+"cyT-iC-xQR.segmentTitles[0]" = "拖拽";
+
+/* Class = "UISegmentedControl"; cyT-iC-xQR.segmentTitles[1] = "Draw"; ObjectID = "cyT-iC-xQR"; */
+"cyT-iC-xQR.segmentTitles[1]" = "画笔";
+
+/* Class = "UISegmentedControl"; cyT-iC-xQR.segmentTitles[2] = "Erase"; ObjectID = "cyT-iC-xQR"; */
+"cyT-iC-xQR.segmentTitles[2]" = "橡皮";
+
+/* Class = "UILabel"; text = "Pattern Name:"; ObjectID = "dz2-yO-O4e"; */
+"dz2-yO-O4e.text" = "图案名称:";
+
+/* Class = "UITextView"; text = "Write the description of your pattern here. (optional)"; ObjectID = "e8w-9Q-PKL"; */
+"e8w-9Q-PKL.text" = "请在此编辑对此图案的描述. (选填)";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "eFo-Gd-oq2"; */
+"eFo-Gd-oq2.text" = "0.0";
+
+/* Class = "UIViewController"; title = "Pattern Editor"; ObjectID = "fLA-0n-vZf"; */
+"fLA-0n-vZf.title" = "图案编辑器";
+
+/* Class = "UILabel"; text = "Cascading Gradient"; ObjectID = "fQR-wQ-Xpe"; */
+"fQR-wQ-Xpe.text" = "层叠式梯度颜色填充";
+
+/* Class = "UILabel"; text = "Iterations / Frame: "; ObjectID = "fia-a9-4Xg"; */
+"fia-a9-4Xg.text" = "每次运行计算代数: ";
+
+/* Class = "UIViewController"; title = "Custom Rule"; ObjectID = "gqN-9i-rbT"; */
+"gqN-9i-rbT.title" = "自定义规则";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "hWJ-rl-wB8"; */
+"hWJ-rl-wB8.text" = "0";
+
+/* Class = "UILabel"; text = "Calc. Duration:"; ObjectID = "i3U-7Y-4zn"; */
+"i3U-7Y-4zn.text" = "计算时长:";
+
+/* Class = "UILabel"; text = "Rendering:"; ObjectID = "iJa-1R-8P7"; */
+"iJa-1R-8P7.text" = "渲染精度:";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "iT8-Cz-2Fd"; */
+"iT8-Cz-2Fd.text" = "0.0";
+
+/* Class = "UILabel"; text = "Green:"; ObjectID = "izv-92-mah"; */
+"izv-92-mah.text" = "绿:";
+
+/* Class = "UITextField"; placeholder = "Enter the pattern name here"; ObjectID = "l7G-Vo-TLu"; */
+"l7G-Vo-TLu.placeholder" = "在此输入图案的名称";
+
+/* Class = "UINavigationItem"; title = "Overview"; ObjectID = "lMM-NU-25b"; */
+"lMM-NU-25b.title" = "概览";
+
+/* Class = "UILabel"; text = "Rule Set:"; ObjectID = "lNV-Nc-P70"; */
+"lNV-Nc-P70.text" = "当前规则:";
+
+/* Class = "UIViewController"; title = "Statistics View Controller"; ObjectID = "lfn-yc-Mwm"; */
+"lfn-yc-Mwm.title" = "统计控制器";
+
+/* Class = "UILabel"; text = "Red: "; ObjectID = "nCr-8V-Hy1"; */
+"nCr-8V-Hy1.text" = "红: ";
+
+/* Class = "UITextField"; placeholder = "Enter your name here"; ObjectID = "nEk-NP-iYH"; */
+"nEk-NP-iYH.placeholder" = "请在此输入您的姓名";
+
+/* Class = "UITextField"; text = "~(Default)"; ObjectID = "nEk-NP-iYH"; */
+"nEk-NP-iYH.text" = "~(默认)";
+
+/* Class = "UILabel"; text = "Unkown"; ObjectID = "ogL-Kn-Ci2"; */
+"ogL-Kn-Ci2.text" = "未知";
+
+/* Class = "UILabel"; text = "Cell Style:"; ObjectID = "oiM-Uj-jm6"; */
+"oiM-Uj-jm6.text" = "细胞样式:";
+
+/* Class = "UILabel"; text = "23/3 (Default)"; ObjectID = "pSh-vf-I0R"; */
+"pSh-vf-I0R.text" = "23/3 (默认)";
+
+/* Class = "UILabel"; text = "Blue:"; ObjectID = "qDV-ch-9e9"; */
+"qDV-ch-9e9.text" = "蓝:";
+
+/* Class = "UISegmentedControl"; rX9-YP-HWo.segmentTitles[0] = "Clear"; ObjectID = "rX9-YP-HWo"; */
+"rX9-YP-HWo.segmentTitles[0]" = "清空";
+
+/* Class = "UISegmentedControl"; rX9-YP-HWo.segmentTitles[1] = "Step"; ObjectID = "rX9-YP-HWo"; */
+"rX9-YP-HWo.segmentTitles[1]" = "下一代";
+
+/* Class = "UISegmentedControl"; rX9-YP-HWo.segmentTitles[2] = "Discard"; ObjectID = "rX9-YP-HWo"; */
+"rX9-YP-HWo.segmentTitles[2]" = "作废";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "sbj-ZZ-mHH"; */
+"sbj-ZZ-mHH.text" = "描述:";
+
+/* Class = "UILabel"; text = ">"; ObjectID = "uCO-JA-Q4p"; */
+"uCO-JA-Q4p.text" = ">";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "uRU-mw-azr"; */
+"uRU-mw-azr.text" = "0.0";
+
+/* Class = "UILabel"; text = "Window:"; ObjectID = "uTH-UZ-Ilv"; */
+"uTH-UZ-Ilv.text" = "当前窗口:";
+
+/* Class = "UILabel"; text = "Processing files..."; ObjectID = "ugn-6J-KcG"; */
+"ugn-6J-KcG.text" = "正在处理文件...";
+
+/* Class = "UILabel"; text = "0 of 1000"; ObjectID = "unw-i4-X3K"; */
+"unw-i4-X3K.text" = "0 of 1000";
+
+/* Class = "UILabel"; text = "23/3"; ObjectID = "v2n-hh-xbs"; */
+"v2n-hh-xbs.text" = "23/3";
+
+/* Class = "UIBarButtonItem"; title = "Load"; ObjectID = "vNh-7R-xwV"; */
+"vNh-7R-xwV.title" = "载入";
+
+/* Class = "UILabel"; text = "Root Level: "; ObjectID = "vQv-bu-ltP"; */
+"vQv-bu-ltP.text" = "宇宙尺寸等级: ";
+
+/* Class = "UILabel"; text = ">"; ObjectID = "vbS-Mk-ug8"; */
+"vbS-Mk-ug8.text" = ">";
+
+/* Class = "UILabel"; text = "Name:\tUnknown"; ObjectID = "w5Y-5S-XF6"; */
+"w5Y-5S-XF6.text" = "名字:\未知";
+
+/* Class = "UISegmentedControl"; wWD-nG-Mc5.segmentTitles[0] = "Rectangle"; ObjectID = "wWD-nG-Mc5"; */
+"wWD-nG-Mc5.segmentTitles[0]" = "正方形";
+
+/* Class = "UISegmentedControl"; wWD-nG-Mc5.segmentTitles[1] = "Ellipse"; ObjectID = "wWD-nG-Mc5"; */
+"wWD-nG-Mc5.segmentTitles[1]" = "圆形";
+
+/* Class = "UILabel"; text = "Cell Raius Scale"; ObjectID = "wfR-Fb-EDP"; */
+"wfR-Fb-EDP.text" = "细胞半径推算因子";
+
+/* Class = "UINavigationItem"; title = "Patterns Library"; ObjectID = "xke-Uj-y0k"; */
+"xke-Uj-y0k.title" = "图案库";
+
+/* Class = "UILabel"; text = "Allowed Rendering Duration:"; ObjectID = "yE1-h7-XgQ"; */
+"yE1-h7-XgQ.text" = "渲染精度指数:";
+
+/* Class = "UILabel"; text = "Name Label"; ObjectID = "yGX-rl-eRr"; */
+"yGX-rl-eRr.text" = "名字标签";
+
+/* Class = "UILabel"; text = "Rule Label"; ObjectID = "yJD-F1-A2T"; */
+"yJD-F1-A2T.text" = "规则标签";
+
+/* Class = "UILabel"; text = "Cached Results:"; ObjectID = "yc0-8O-MfQ"; */
+"yc0-8O-MfQ.text" = "以缓存图案数量:";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "z8h-9y-RI3"; */
+"z8h-9y-RI3.text" = "3";
+
+/* Class = "UISegmentedControl"; z93-DS-phi.segmentTitles[0] = "Rotate"; ObjectID = "z93-DS-phi"; */
+"z93-DS-phi.segmentTitles[0]" = "旋转";
+
+/* Class = "UISegmentedControl"; z93-DS-phi.segmentTitles[1] = "V Flip"; ObjectID = "z93-DS-phi"; */
+"z93-DS-phi.segmentTitles[1]" = "垂直对称";
+
+/* Class = "UISegmentedControl"; z93-DS-phi.segmentTitles[2] = "H Flip"; ObjectID = "z93-DS-phi"; */
+"z93-DS-phi.segmentTitles[2]" = "水平对称";

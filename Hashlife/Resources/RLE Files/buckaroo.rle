@@ -1,0 +1,7 @@
+#N Buckaroo
+#O David Buckingham
+#C A period 30 oscillator based on the queen bee shuttle.
+#C www.conwaylife.com/wiki/index.php?title=Buckaroo
+x = 22, y = 9, rule = b3/s23
+9bo12b$7bobo12b$6bobo13b$2o3bo2bo13b$2o4bobo13b$7bobo8b2o2b$9bo8bobob$
+20bob$20b2o!

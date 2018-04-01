@@ -1,0 +1,11 @@
+#N Heavyweight volcano
+#O Dean Hickerson
+#C A period 5 oscillator found in February 1995 that gives off a domino spark much like a heavyweight spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Heavyweight_volcano
+x = 33, y = 19, rule = B3/S23
+6bo26b$5bobo25b$3b3obo25b$2bo4b2obo22b$2bob2o3b2o6b2o14b$b2obob2o9bobo
+13b$o3bo3b5o6bo2bob2o7b$2ob2o2bo5bo4b2obob2obo6b$o8bo2b2o7bo4bo6b$2obo
+4bobo2b2o4b2ob4ob2o4b$2obo2bo2b2o2b4obobobo4bobo3b$o5bo3bo2b2obob2o2bo
+2b2o2bo3b$2ob2obo8bobobo2bo6bob2o$o3bobo10bobo3b2obo2bobob$b2obobob2o
+6b2obobobo3bobobob$2bob2obo2bo7bob2o2b4ob2o2b$2bo4bobo8bo3b2o9b$b2o4b
+2o8b2o3bo2bo7b$24b2o!
