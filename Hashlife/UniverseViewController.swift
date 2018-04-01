@@ -250,15 +250,15 @@ let viewPortUpdatedNotification = Notification.Name("viewPortUpdatedNotification
         }
     }
 
-    //for communication between different VCs that are holders of UV.
+    /// This is for communication between different VCs that are holders of UV.
     public func alignUniverseViewContstraints(with view: UniverseView) {
         self.universeView.ctr = view.ctr
         self.universeView.initialCellSize = view.initialCellSize
         self.universeView.respondTo(scale: 1, at: CGPoint(x: 0, y: 0))
     }
 
-    //NOTE: should be in extension, but method needs to be overriden by subclass.
-    //Communicate back the user interaction to the simulator.
+    ///Communicate back the user interaction to the simulator.
+    ///- Note: Should be in extension, but method needs to be overriden by subclass.
     public func didTouch(at loc: Coordinate) {
         tapToDropLabel?.isHidden = true
         if let coordinates = pendingCoordinates {
@@ -312,7 +312,7 @@ let viewPortUpdatedNotification = Notification.Name("viewPortUpdatedNotification
 
 extension UniverseViewController: UniverseViewDelegate {
 
-    //Tell the simulator to step when user touches with two fingers.
+    ///Tell the simulator to step when user touches with two fingers.
     public func didTouchWithTwoFingers() {
         simulator.step()
     }

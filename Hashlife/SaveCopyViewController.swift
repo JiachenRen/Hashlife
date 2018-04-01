@@ -53,7 +53,7 @@ class SaveCopyViewController: UIViewController {
         } else if !sender.text!.contains("/") {
             isValidRule = false
         } else {
-            let filtered = sender.text!.characters
+            let filtered = sender.text!
                 .map{$0 == "/" ? -1 : Int(String(describing: $0))}
                 .filter{$0 != nil} //cannot combine because compiler too stupid to infer
             sender.text = filtered.map{$0! == -1 ? "/" : String($0!)}

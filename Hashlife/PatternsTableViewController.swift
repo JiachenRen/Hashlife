@@ -34,8 +34,8 @@ class PatternsTableViewController: UITableViewController, UISearchBarDelegate {
 //        self.tableView.sectionIndexColor = UIColor.red
         
         patterns.enumerated().forEach {
-            var char = $0.element.title!.characters.first!
-            char = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".contains(char.description.uppercased()) ? char.description.uppercased().characters.first! : "#"
+            var char = $0.element.title!.first!
+            char = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".contains(char.description.uppercased()) ? char.description.uppercased().first! : "#"
             if sections.keys.contains(char) {
                 sections[char]?.append($0.offset)
             } else {
@@ -45,7 +45,6 @@ class PatternsTableViewController: UITableViewController, UISearchBarDelegate {
         }
         
         sectionKeys = sectionKeys.sorted(by: <)
-//        sectionKeys.append(sectionKeys.remove(at: 0))
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

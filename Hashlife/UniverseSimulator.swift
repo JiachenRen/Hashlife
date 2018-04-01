@@ -118,10 +118,10 @@ public class UniverseSimulator {
         var coordinates = [Coordinate]()
         var x = 0, y = 0, paramArg = 0
         for line in rle.components(separatedBy: "\n") {
-            if line.characters.first == "x" || line.characters.first == "#" {
+            if line.first == "x" || line.first == "#" {
                 continue
             }
-            for c in line.characters {
+            for c in line {
                 var param = (paramArg == 0 ? 1 : paramArg)
                 switch c {
                 case "b":
@@ -173,7 +173,7 @@ public class UniverseSimulator {
                 anchorCol = Int(coordinate[1])!
                 staringIndex = i
             } else {
-                line.characters.enumerated().forEach { (q, char) in
+                line.enumerated().forEach { (q, char) in
                     if char == "*" {
                         coordinates.append((
                                 x: anchorRow + i - staringIndex - 1,
@@ -188,10 +188,10 @@ public class UniverseSimulator {
 
     //convert the string representation of a rule set to the readable form by the universe.
     public static func interpret(rule: String) -> (living: [Int], born: [Int]) {
-        let slashIndex = rule.characters.index(of: "/")!
+        let slashIndex = rule.index(of: "/")!
         var bornRule: String, livingRule: String
-        if let bIndex = rule.characters.index(of: "b"),
-           let sIndex = rule.characters.index(of: "s") {
+        if let bIndex = rule.index(of: "b"),
+           let sIndex = rule.index(of: "s") {
             bornRule = rule.substring(from: rule.index(after: bIndex))
                 .substring(to: rule.index(before: slashIndex))
             livingRule = rule.substring(from: rule.index(after: sIndex))
@@ -200,8 +200,8 @@ public class UniverseSimulator {
                 .substring(to: slashIndex)
             bornRule = rule.substring(from: rule.index(after: slashIndex))
         }
-        return (living: livingRule.characters.map{Int(String($0))!},
-                born: bornRule.characters.map{Int(String($0))!})
+        return (living: livingRule.map{Int(String($0))!},
+                born: bornRule.map{Int(String($0))!})
     }
 }
 

@@ -1283,7 +1283,6 @@
 		32D16A1B1F2864AB002D6603 /* names.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32D16A1A1F2864AB002D6603 /* names.plist */; };
 		32D16A1E1F2920D2002D6603 /* PatternsRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D16A1D1F2920D2002D6603 /* PatternsRootViewController.swift */; };
 		32D16A201F292206002D6603 /* PatternsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D16A1F1F292206002D6603 /* PatternsTableViewController.swift */; };
-		32F4A1191F2FFBF9002006F9 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 32F4A1181F2FFBF9002006F9 /* README.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -2567,7 +2566,6 @@
 		32D16A1A1F2864AB002D6603 /* names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = names.plist; sourceTree = "<group>"; };
 		32D16A1D1F2920D2002D6603 /* PatternsRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternsRootViewController.swift; sourceTree = "<group>"; };
 		32D16A1F1F292206002D6603 /* PatternsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternsTableViewController.swift; sourceTree = "<group>"; };
-		32F4A1181F2FFBF9002006F9 /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2609,7 +2607,6 @@
 				32676EC11F26B67C0033955E /* Others */,
 				322540D51F230ABE002D4DFF /* Main.storyboard */,
 				322540D81F230ABE002D4DFF /* Hashlife.xcdatamodeld */,
-				32F4A1181F2FFBF9002006F9 /* README.rtf */,
 			);
 			path = Hashlife;
 			sourceTree = "<group>";
@@ -5207,7 +5204,6 @@
 				326776761F26CB150033955E /* maze6cellstilllifes.rle in Resources */,
 				326773F01F26CB140033955E /* 48p22.rle in Resources */,
 				326778391F26CB150033955E /* twogun.rle in Resources */,
-				32F4A1191F2FFBF9002006F9 /* README.rtf in Resources */,
 				326774C11F26CB150033955E /* blockonboat.rle in Resources */,
 				326773CA1F26CB140033955E /* 22p36_synth.rle in Resources */,
 				326774FC1F26CB150033955E /* candlefrobra.rle in Resources */,
