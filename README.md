@@ -74,8 +74,8 @@ It is a free software available on the [AppStore](https://itunes.apple.com/us/ap
 
 ## CoreData
 * When the app is opened up for the first time, the app will transcribe all of its rle files into CoreData for the following reasons:
-1) faster performance when loading patterns
-2) better & easier management.
+   1) faster performance when loading patterns
+   2) better & easier management.
 * However, if the user decided to quit during the process in which the app is building up the data base, it is no big deal, because the app will start from where it left off the next time the user opens up the app.
 
 
