@@ -79,7 +79,7 @@ It is a free software available on the [AppStore](https://itunes.apple.com/us/ap
 * However, if the user decided to quit during the process in which the app is building up the data base, it is no big deal, because the app will start from where it left off the next time the user opens up the app.
 
 
-## Known Error
+### Known Error
 * pressing "Load" on an iPad kills it due to an AlertViewController error that I do not understand.
 * update: could be fixed through altering the style of the alert view controller.
 
