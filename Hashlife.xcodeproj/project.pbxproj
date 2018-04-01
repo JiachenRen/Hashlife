@@ -1270,7 +1270,7 @@
 		326778651F26CB150033955E /* zpentomino.rle in Resources */ = {isa = PBXBuildFile; fileRef = 326773931F26CB140033955E /* zpentomino.rle */; };
 		326778661F26CB150033955E /* zweiback.rle in Resources */ = {isa = PBXBuildFile; fileRef = 326773941F26CB140033955E /* zweiback.rle */; };
 		3289390E1F246256001A99E7 /* Hashlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328939091F246256001A99E7 /* Hashlife.swift */; };
-		3289390F1F246256001A99E7 /* QuadTreeADT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289390A1F246256001A99E7 /* QuadTreeADT.swift */; };
+		3289390F1F246256001A99E7 /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289390A1F246256001A99E7 /* QuadTree.swift */; };
 		328939101F246256001A99E7 /* Universe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289390B1F246256001A99E7 /* Universe.swift */; };
 		328939111F246256001A99E7 /* UniverseSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289390C1F246256001A99E7 /* UniverseSimulator.swift */; };
 		328939121F246256001A99E7 /* HashedTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289390D1F246256001A99E7 /* HashedTreeNode.swift */; };
@@ -2554,7 +2554,7 @@
 		326773931F26CB140033955E /* zpentomino.rle */ = {isa = PBXFileReference; fileEncoding = 1; lastKnownFileType = text; path = zpentomino.rle; sourceTree = "<group>"; };
 		326773941F26CB140033955E /* zweiback.rle */ = {isa = PBXFileReference; fileEncoding = 1; lastKnownFileType = text; path = zweiback.rle; sourceTree = "<group>"; };
 		328939091F246256001A99E7 /* Hashlife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hashlife.swift; sourceTree = "<group>"; };
-		3289390A1F246256001A99E7 /* QuadTreeADT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadTreeADT.swift; sourceTree = "<group>"; };
+		3289390A1F246256001A99E7 /* QuadTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadTree.swift; sourceTree = "<group>"; };
 		3289390B1F246256001A99E7 /* Universe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Universe.swift; sourceTree = "<group>"; };
 		3289390C1F246256001A99E7 /* UniverseSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniverseSimulator.swift; sourceTree = "<group>"; };
 		3289390D1F246256001A99E7 /* HashedTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashedTreeNode.swift; sourceTree = "<group>"; };
@@ -3930,7 +3930,7 @@
 			isa = PBXGroup;
 			children = (
 				328939091F246256001A99E7 /* Hashlife.swift */,
-				3289390A1F246256001A99E7 /* QuadTreeADT.swift */,
+				3289390A1F246256001A99E7 /* QuadTree.swift */,
 				3289390B1F246256001A99E7 /* Universe.swift */,
 				3289390C1F246256001A99E7 /* UniverseSimulator.swift */,
 				3289390D1F246256001A99E7 /* HashedTreeNode.swift */,
@@ -5313,7 +5313,7 @@
 				325DB7341F2C0CD000948A7C /* AutoSpeedViewController.swift in Sources */,
 				325DB7321F2BD7F100948A7C /* CellViewController.swift in Sources */,
 				325DB72B1F2BB54700948A7C /* GridViewController.swift in Sources */,
-				3289390F1F246256001A99E7 /* QuadTreeADT.swift in Sources */,
+				3289390F1F246256001A99E7 /* QuadTree.swift in Sources */,
 				3289391D1F24F078001A99E7 /* Vec2D.swift in Sources */,
 				32CAE0341F311435005583C5 /* CoreDataPopulatorViewController.swift in Sources */,
 				325DB72D1F2BB69200948A7C /* ColorViewController.swift in Sources */,
