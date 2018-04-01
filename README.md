@@ -35,14 +35,14 @@ It is a free software available on the [AppStore](https://itunes.apple.com/us/ap
 * press on any of them to segue to the overview
 * press "Network" located in the nav bar to do network fetch.
 
-## Overview (One of the 4 Tabs)
+## Inspector
 * name, author, rule, source, description and the properly scaled preview of the pattern is provided.
 * press on the link to see more details on wikipedia
 * press on the pattern preview to segue to Editor view controller.
 * press load to choose between overriding the existing universe or insert multiple copies into the current one.
 * if a universe is overridden, then the rule for the current pattern is applied, if not, the current rule will not be changed.
 
-## .rle Editor
+## Editor
 * rotate and flipping capabilities are supported.
 * segmented control for pan, draw, erase. Brush size could be controlled through Instrumentation tab.
 * when back to the overview, any edits are saved for the current session
