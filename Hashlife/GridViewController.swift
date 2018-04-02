@@ -38,7 +38,7 @@ class GridViewController: AppearanceViewController, ColorViewControllerDelegate 
     //updates grid visible threshold label
     private func updateGridThresholdLabel() {
         let txt = String(describing: gridVisibleThresholdSlider.value)
-        self.gridVisibleThresholdLabel.text = txt.substring(to: txt.index(txt.startIndex, offsetBy: 3))
+        self.gridVisibleThresholdLabel.text = String(txt[..<txt.index(txt.startIndex, offsetBy: 3)])
     }
     
 

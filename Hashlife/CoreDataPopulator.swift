@@ -84,7 +84,7 @@ class CoreDataPopulator {
                     if line.contains("http") || line.contains("www") {
                         overview += "\nSource: "
                     }
-                    overview += line.substring(from: readIndex).replacingOccurrences(of: "\r", with: "\n")
+                    overview += line[readIndex...].replacingOccurrences(of: "\r", with: "\n")
                 }
             }
         }

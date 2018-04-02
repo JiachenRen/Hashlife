@@ -47,10 +47,6 @@ class PatternEditorViewController: UniverseViewController {
         return
     }
 
-    override func twoFingerPanIsInProgress() -> Bool {
-        return false
-    }
-
     override func simulatorDidUpdate() {
         super.simulatorDidUpdate()
 
