@@ -29,13 +29,14 @@ class PatternsRootViewController: UIViewController, CDPControllerDelegate {
     }
     
     func didFinish() {
-        
         let ptvc = (self.childViewControllers[0] as! PatternsTableViewController)
         typealias PTVC = PatternsTableViewController
         ptvc.patterns = (try? PTVC.context.fetch(Pattern.fetchRequest()))!
-        ptvc.tableView.reloadData()
-        ptvc.tableView.setNeedsDisplay()
-//        self.dismiss(animated: true, completion: nil)
+        DispatchQueue.main.sync {
+            ptvc.tableView.reloadData()
+            ptvc.viewDidLoad()
+            self.navigationController?.popViewController(animated: true)
+        }
     }
 
     

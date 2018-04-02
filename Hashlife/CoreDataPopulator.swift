@@ -29,7 +29,13 @@ class CoreDataPopulator {
         return fileNamesPlist["elem"] as! Array<Dictionary<String, String>>
     }()
     
-    static var context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    static var context: NSManagedObjectContext {
+        get {
+            return (UIApplication.shared.delegate as! AppDelegate)
+                .persistentContainer
+                .viewContext
+        }
+    }
     
     static var numFiles: Int = 0
     static var curFile: Int = 0

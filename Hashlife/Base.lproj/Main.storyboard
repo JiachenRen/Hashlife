@@ -273,32 +273,32 @@
                         <viewControllerLayoutGuide type="bottom" id="E54-iX-gUB"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="eef-ab-4hm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5Y-5S-XF6">
-                                <rect key="frame" x="4" y="28" width="116.5" height="17"/>
+                                <rect key="frame" x="4" y="72" width="116.5" height="17"/>
                                 <string key="text">Name:	Unknown</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNd-S0-nF5">
-                                <rect key="frame" x="4" y="53" width="116.5" height="17"/>
+                                <rect key="frame" x="4" y="97" width="116.5" height="17"/>
                                 <string key="text">Author:	Unknown</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="The description of the .rle, .lif, or .life goes here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="avE-kH-VYv">
-                                <rect key="frame" x="4" y="78" width="367" height="118"/>
+                                <rect key="frame" x="4" y="122" width="367" height="119"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="light"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iga-ec-vHp" customClass="UniverseView" customModule="Hashlife" customModuleProvider="target">
-                                <rect key="frame" x="4" y="204" width="367" height="357"/>
+                                <rect key="frame" x="4" y="249" width="367" height="361"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
@@ -311,7 +311,7 @@
                                 </connections>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rule Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QiI-y8-erU">
-                                <rect key="frame" x="296" y="27.5" width="71" height="18"/>
+                                <rect key="frame" x="296" y="71.5" width="71" height="18"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                 <color key="textColor" red="0.086274509799999996" green="0.49019607840000001" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -431,11 +431,11 @@
                         <viewControllerLayoutGuide type="bottom" id="cTe-iV-YBw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aJo-6j-Csz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rKV-Rn-Gld" customClass="UniverseView" customModule="Hashlife" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="56" width="375" height="562"/>
+                                <rect key="frame" x="0.0" y="100" width="375" height="518"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 x 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WQ-Bh-fLb" userLabel="Dimension Label">
                                         <rect key="frame" x="329" y="8" width="38" height="21"/>
@@ -461,7 +461,7 @@
                                 </connections>
                             </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Z2-PZ-CvA">
-                                <rect key="frame" x="4" y="24" width="146" height="29"/>
+                                <rect key="frame" x="4" y="68" width="146" height="29"/>
                                 <segments>
                                     <segment title="Pan"/>
                                     <segment title="Draw"/>
@@ -472,7 +472,7 @@
                                 </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" momentary="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z93-DS-phi">
-                                <rect key="frame" x="218" y="24" width="153" height="29"/>
+                                <rect key="frame" x="218" y="68" width="153" height="29"/>
                                 <segments>
                                     <segment title="Rotate"/>
                                     <segment title="V Flip"/>
@@ -548,7 +548,7 @@
                         <viewControllerLayoutGuide type="bottom" id="F35-Je-dpA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vRf-UM-UyQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pattern Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dz2-yO-O4e">
@@ -597,7 +597,7 @@
                                 </connections>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Write the description of your pattern here. (optional)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e8w-9Q-PKL">
-                                <rect key="frame" x="16" y="302" width="343" height="296"/>
+                                <rect key="frame" x="16" y="302" width="343" height="345"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2529,7 +2529,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Q9F-6X-dUE"/>
-        <segue reference="9l3-dB-Ziy"/>
-        <segue reference="wRw-92-5DE"/>
+        <segue reference="Hmt-jX-QC8"/>
+        <segue reference="1VB-wd-50g"/>
     </inferredMetricsTieBreakers>
 </document>

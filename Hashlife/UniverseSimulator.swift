@@ -168,7 +168,7 @@ public class UniverseSimulator {
             //    if i == 0 {continue}
             if line.hasPrefix("#P") {
                 let index = line.index(line.startIndex, offsetBy: 3)
-                let coordinate = line.substring(from: index).components(separatedBy: " ")
+                let coordinate = line[index...].components(separatedBy: " ")
                 anchorRow = Int(coordinate[0])!
                 anchorCol = Int(coordinate[1])!
                 staringIndex = i
@@ -192,13 +192,11 @@ public class UniverseSimulator {
         var bornRule: String, livingRule: String
         if let bIndex = rule.index(of: "b"),
            let sIndex = rule.index(of: "s") {
-            bornRule = rule.substring(from: rule.index(after: bIndex))
-                .substring(to: rule.index(before: slashIndex))
-            livingRule = rule.substring(from: rule.index(after: sIndex))
+            bornRule = String(rule[rule.index(after: bIndex)...rule.index(before: slashIndex)])
+            livingRule = String(rule[rule.index(after: sIndex)...])
         } else {
-            livingRule = rule.substring(from: rule.startIndex)
-                .substring(to: slashIndex)
-            bornRule = rule.substring(from: rule.index(after: slashIndex))
+            livingRule = String(rule[rule.startIndex..<slashIndex])
+            bornRule = String(rule[rule.index(after: slashIndex)...])
         }
         return (living: livingRule.map{Int(String($0))!},
                 born: bornRule.map{Int(String($0))!})
