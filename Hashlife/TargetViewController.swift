@@ -12,7 +12,7 @@ class TargetViewController: UIViewController {
     var target: UniverseView!
 }
 
-class AppearanceViewController: TargetViewController {
+@objcMembers class AppearanceViewController: TargetViewController {
     weak var universeView: UniverseView!
     override func viewDidLayoutSubviews() {
         let vp = universeView.getUniverseViewPort()

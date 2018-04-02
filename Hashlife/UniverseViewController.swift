@@ -331,8 +331,8 @@ extension UniverseViewController: UniverseViewDelegate {
     }
 
     public func twoFingerPanIsInProgress() -> Bool {
+        if twoFingerPanGestureRecognizer == nil {return false}
         return twoFingerPanGestureRecognizer.state == .changed && !twoFingerPanCanceled
-            && !(self is PatternEditorViewController)
     }
 
     public func simulatorSpeedPercentage() -> CGFloat {
