@@ -47,7 +47,7 @@ let viewPortUpdatedNotification = Notification.Name("viewPortUpdatedNotification
         return UniverseSimulator.sharedInstance
     }
 
-    static var brushScale: Int = 1
+    static var brushScale: Int = 0
     var mode: Mode = .pan
 
     public enum Mode {
