@@ -409,7 +409,6 @@ import UIKit
         let normalized = first.force / first.maximumPossibleForce
         if normalized > 0.75 && !didDeepPress {
             delegate?.longPressCompleted()
-            touchesEnded(touches, with: event)
             didDeepPress = true
         }
 
