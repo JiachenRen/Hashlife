@@ -328,6 +328,8 @@ extension UniverseViewController: UniverseViewDelegate {
     public func longPressCompleted() {
         timeRecognized = nil
         self.simulator.stepTimer == nil ? simulator.start() : simulator.stop()
+        let generator = UIImpactFeedbackGenerator(style: .heavy)
+        generator.impactOccurred()
     }
 
     public func twoFingerPanIsInProgress() -> Bool {

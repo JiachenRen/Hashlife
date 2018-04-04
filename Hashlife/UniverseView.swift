@@ -384,7 +384,7 @@ import UIKit
     //dynamic switch of cells. Might not work, because the root is immutable.
     public override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         let numTouches = event?.allTouches?.count
-        if numTouches == 1 {
+        if numTouches == 1 && !didDeepPress {
             if let pos = touches.first?.location(in: self) {
                 let coordinate = convertToNodePos(from: posInUniverse(from: pos))
                 delegate?.didTouch(at: coordinate)
@@ -392,6 +392,27 @@ import UIKit
         } else if numTouches == 2 {
             delegate?.didTouchWithTwoFingers()
         }
+        didDeepPress = false
+    }
+    
+    private var didDeepPress = false
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        didDeepPress = false
+    }
+
+    
+    //same effect as long press
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        guard let first = touches.first else {return}
+        let normalized = first.force / first.maximumPossibleForce
+        if normalized > 0.75 && !didDeepPress {
+            delegate?.longPressCompleted()
+            touchesEnded(touches, with: event)
+            didDeepPress = true
+        }
+
     }
 
     //draws a stream of arrows.

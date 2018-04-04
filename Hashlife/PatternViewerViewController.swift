@@ -37,9 +37,9 @@ class PatternViewerViewController: UIViewController, SimulatorDelegate {
     }
     
     private func applyBasicPatternInfo(title: String?, author: String?, rule: String?, overview: String?) {
-        self.authorLabel.text = "Name:\t\(author ?? "Unknown")"
+        self.authorLabel.text = "Author:\t\(author ?? "Unknown")"
         self.descriptionTextView.text = overview
-        self.nameLabel.text = "Author:\t\(title ?? "Anonymous")"
+        self.nameLabel.text = "Name:\t\(title ?? "Anonymous")"
         self.ruleLabel.text = rule == "~" ? "" : rule
     }
 

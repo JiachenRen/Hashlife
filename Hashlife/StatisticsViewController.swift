@@ -24,6 +24,7 @@ class StatisticsViewController: UIViewController{
     @IBOutlet weak var windowLabel: UILabel!
     
     static var shouldUpdateStatistics = false //this should default to false
+    var appearedForTheFirstTime = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -72,6 +73,15 @@ class StatisticsViewController: UIViewController{
             self.calcDurationGraphView.dataSet.add(CGFloat(calcDuration))
         }
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if appearedForTheFirstTime == false {
+            StatisticsViewController.shouldUpdateStatistics = true
+            UniverseSimulator.sharedInstance.start()
+            appearedForTheFirstTime = true
+        }
     }
     
     @objc func updateRuleSetLabel() {
