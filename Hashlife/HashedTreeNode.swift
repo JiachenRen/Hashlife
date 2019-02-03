@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class HashedTreeNode: QuadTree, CustomStringConvertible, NodeProtocol {
+public class HashedTreeNode: QuadTree, NodeProtocol {
     private var result: HashedTreeNode? //This is what does the trick. Every macrocell will have a RESULT computed.
     public class var prototype: HashedTreeNode {
         return HashedTreeNode(isAlive: false)//.initOrRef()// do I need this??
@@ -122,14 +122,14 @@ public class HashedTreeNode: QuadTree, CustomStringConvertible, NodeProtocol {
     //        return TreeNode(nw: nw, ne: ne, sw: sw, se: se)
     //    }
 
-    public var description: String {
+    override public var description: String {
         return "HashedTreeNode population <\(pop)> lev <\(lev)>"
     }
 
     //init or return a reference to the identical self in the hashMap.
     public func initOrRef() -> HashedTreeNode {
-        guard let ref = HashedTreeNode.hashMap[self] else {
-            HashedTreeNode.hashMap[self] = self
+        guard let ref = HashedTreeNode.hashMap.object(forKey: self) else {
+            HashedTreeNode.hashMap.setObject(self, forKey: self)
             //print("logged:\n\(self.str)")
             return self
         }
@@ -167,13 +167,16 @@ public class HashedTreeNode: QuadTree, CustomStringConvertible, NodeProtocol {
     //        let n = initEmptyTree(lev: lev - 1, proto: proto)
     //        return proto.initGhost(nw: n, ne: n, sw: n, se: n)
     //    }
-}
 
-extension HashedTreeNode: Hashable {
-    static var hashMap = Dictionary<HashedTreeNode, HashedTreeNode>()
+  static var hashMap = { () -> NSCache<HashedTreeNode, HashedTreeNode> in
+    let hashMap = NSCache<HashedTreeNode, HashedTreeNode>()
+    hashMap.name = "HashTreeNode hashmap"
+    return hashMap
+  }()
 
     //debug: since I changed ne, nw, se, sw to var, would the mem addr still remain the same?
-    public var hashValue: Int {
+
+  override public var hash: Int {
         if self.lev == 0 {
             //maybe return .hashValue here for the base case?
             return Int(self.pop)
@@ -192,6 +195,14 @@ extension HashedTreeNode: Hashable {
         //                + 101 * withUnsafeMutablePointer(to: &sw){return $0}.hashValue
         //                + 1007 * withUnsafeMutablePointer(to: &se){return $0}.hashValue
     }
+
+  override public func isEqual(_ object: Any?) -> Bool {
+    if let object = object as? HashedTreeNode {
+      return self == object
+    } else {
+      return false
+    }
+  }
 
     public static func ==(lhs: HashedTreeNode, rhs: HashedTreeNode) -> Bool {
         if lhs.lev != rhs.lev {

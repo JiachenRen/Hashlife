@@ -65,8 +65,8 @@ class StatisticsViewController: UIViewController{
         emptyNodesGraphView.dataSet.add(CGFloat(emptyNodes))
 //        emptyNodesGraphView.dataSet.min = {_ in 0}
         
-        let hashMapCount = HashedTreeNode.hashMap.count
-        self.cachedResultsLabel.text = String(hashMapCount)
+        // let hashMapCount = HashedTreeNode.hashMap.count
+        self.cachedResultsLabel.text = String("???")
         
         if let calcDuration = simulator.millisPerIteration {
             self.calcDurationLabel.text = String("\(calcDuration) ms")

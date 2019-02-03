@@ -70,7 +70,7 @@ public class Universe: UniverseProtocol {
     public static var ruleSet: RuleSet = .default {
         didSet {
             if !(oldValue == ruleSet) {
-                HashedTreeNode.hashMap = Dictionary<HashedTreeNode, HashedTreeNode>()
+                HashedTreeNode.hashMap.removeAllObjects()
                 NotificationCenter.default.post(Notification(name: ruleSetUpdatedNotification))
             }
             //could be improved. Should have multiple hash maps for different rule sets.

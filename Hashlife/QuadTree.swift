@@ -10,7 +10,7 @@ import Foundation
 
 public typealias Coordinate = (x: Int, y: Int)
 
-public class QuadTree {
+public class QuadTree : NSObject {
     final let nw: HashedTreeNode!     //IMMUTABLE.
     final let ne: HashedTreeNode!     //IMMUTABLE. unsafePointer(to:) requires the parameter to be mutable.
     final let sw: HashedTreeNode!     //IMMUTABLE.
