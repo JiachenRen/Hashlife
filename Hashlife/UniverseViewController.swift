@@ -97,7 +97,7 @@ let viewPortUpdatedNotification = Notification.Name("viewPortUpdatedNotification
 
     public func updateOverlayStatsLabels() {
         self.generationLabel.text = String(describing: simulator.universe.numGen)
-        self.populationLabel.text = String(simulator.universe.root.pop)
+        self.populationLabel.text = String(format:"%g", simulator.universe.root.pop)
     }
 
     public func updateDimensionLabel() {

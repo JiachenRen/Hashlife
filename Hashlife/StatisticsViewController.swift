@@ -52,7 +52,7 @@ class StatisticsViewController: UIViewController{
         
         let pop = CGFloat(simulator.universe.root.pop) //I am using float to prevent overflow of integer.
         self.populationGraphView.dataSet.add(CGFloat(pop))
-        self.populationLabel.text = String(describing: pop)
+        self.populationLabel.text = String(format: "%g", pop)
         
         let gen = CGFloat(simulator.universe.numGen.intValue)
         self.generationLabel.text = String(Int(gen))
