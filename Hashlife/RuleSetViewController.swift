@@ -15,7 +15,7 @@ class RuleSetViewController: UIViewController, RuleSetTableViewControllerDelegat
     @IBOutlet weak var customRuleTableContainer: UIView!
 
     var tableViewController: RuleSetTableViewController {
-        return self.childViewControllers[0] as! RuleSetTableViewController
+        return self.children[0] as! RuleSetTableViewController
     }
 
     override func viewDidLoad() {

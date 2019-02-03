@@ -17,7 +17,7 @@ class ToggleTableViewCell: UITableViewCell, NamedTableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        print(self.switch)
+        print(self.switch!)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
