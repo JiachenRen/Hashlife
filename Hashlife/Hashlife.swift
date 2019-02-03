@@ -21,7 +21,7 @@ public extension HashedTreeNode {
         return self.initGhost(nw: nw.se, ne: ne.sw, sw: sw.ne, se: se.nw).evalNextState()
     }
 
-    public func hashlife() -> HashedTreeNode {
+    func hashlife() -> HashedTreeNode {
         if pop == 0 {
             return nw
         }

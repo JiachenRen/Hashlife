@@ -173,7 +173,6 @@ class InstrumentationTableViewController: UITableViewController {
         case "Grid": performSegue(withIdentifier: "gridSegue", sender: self)
         case "Cell": performSegue(withIdentifier: "cellSegue", sender: self)
         case "Background": performSegue(withIdentifier: "backgroundSegue", sender: self)
-        case "Auto Speed": performSegue(withIdentifier: "autoSpeedSegue", sender: self)
         case "Gradient Fill": performSegue(withIdentifier: "gradientFillSegue", sender: self)
         default: break
         }
