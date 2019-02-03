@@ -179,11 +179,11 @@ extension HashedTreeNode: Hashable {
             return Int(self.pop)
         }
         
-        //CRASHES IPHONE 5 AND BELOW DUE TO INTEGER OVERFLOW, TRYING TO FIND A FIX - Aug. 2nd
+        // Use &+ and &* to ignore numeric overflow.
         let hashVal = Unmanaged<HashedTreeNode>.passUnretained(nw).toOpaque().hashValue
-                + 11 * Unmanaged<HashedTreeNode>.passUnretained(ne).toOpaque().hashValue
-                + 101 * Unmanaged<HashedTreeNode>.passUnretained(sw).toOpaque().hashValue
-                + 1007 * Unmanaged<HashedTreeNode>.passUnretained(se).toOpaque().hashValue
+                &+ 11 &* Unmanaged<HashedTreeNode>.passUnretained(ne).toOpaque().hashValue
+                &+ 101 &* Unmanaged<HashedTreeNode>.passUnretained(sw).toOpaque().hashValue
+                &+ 1007 &* Unmanaged<HashedTreeNode>.passUnretained(se).toOpaque().hashValue
 
         //it works now, but maybe it is not the fastest way to do so...
         return hashVal
