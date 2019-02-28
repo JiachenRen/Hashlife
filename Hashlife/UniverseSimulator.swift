@@ -188,10 +188,10 @@ public class UniverseSimulator {
 
     //convert the string representation of a rule set to the readable form by the universe.
     public static func interpret(rule: String) -> (living: [Int], born: [Int]) {
-        let slashIndex = rule.index(of: "/")!
+        let slashIndex = rule.firstIndex(of: "/")!
         var bornRule: String, livingRule: String
-        if let bIndex = rule.index(of: "b"),
-           let sIndex = rule.index(of: "s") {
+        if let bIndex = rule.firstIndex(of: "b"),
+           let sIndex = rule.firstIndex(of: "s") {
             bornRule = String(rule[rule.index(after: bIndex)...rule.index(before: slashIndex)])
             livingRule = String(rule[rule.index(after: sIndex)...])
         } else {

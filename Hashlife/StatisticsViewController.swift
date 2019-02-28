@@ -52,7 +52,7 @@ class StatisticsViewController: UIViewController{
         
         let pop = CGFloat(simulator.universe.root.pop) //I am using float to prevent overflow of integer.
         self.populationGraphView.dataSet.add(CGFloat(pop))
-        self.populationLabel.text = String(describing: pop)
+        self.populationLabel.text = String(format: "%g", pop)
         
         let gen = CGFloat(simulator.universe.numGen.intValue)
         self.generationLabel.text = String(Int(gen))
@@ -65,8 +65,8 @@ class StatisticsViewController: UIViewController{
         emptyNodesGraphView.dataSet.add(CGFloat(emptyNodes))
 //        emptyNodesGraphView.dataSet.min = {_ in 0}
         
-        let hashMapCount = HashedTreeNode.hashMap.count
-        self.cachedResultsLabel.text = String(hashMapCount)
+        // let hashMapCount = HashedTreeNode.hashMap.count
+        self.cachedResultsLabel.text = String("???")
         
         if let calcDuration = simulator.millisPerIteration {
             self.calcDurationLabel.text = String("\(calcDuration) ms")

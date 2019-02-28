@@ -29,7 +29,7 @@ class PatternsRootViewController: UIViewController, CDPControllerDelegate {
     }
     
     func didFinish() {
-        let ptvc = (self.childViewControllers[0] as! PatternsTableViewController)
+        let ptvc = (self.children[0] as! PatternsTableViewController)
         typealias PTVC = PatternsTableViewController
         ptvc.patterns = (try? PTVC.context.fetch(Pattern.fetchRequest()))!
         DispatchQueue.main.sync {

@@ -119,7 +119,7 @@ class PatternEditorViewController: UniverseViewController {
                     
                     //apply changes to the table view controller... doesn't look like good practice...
                     ((self.navigationController?.viewControllers[0] as! PatternsRootViewController)
-                        .childViewControllers[0] as! PatternsTableViewController).add(pattern, at: IndexPath(row: 0, section: 0))
+                        .children[0] as! PatternsTableViewController).add(pattern, at: IndexPath(row: 0, section: 0))
                     
                     //if changes saved, pop the editor.
                     self.navigationController?.popViewController(animated: true)

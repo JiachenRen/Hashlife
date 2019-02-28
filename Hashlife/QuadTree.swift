@@ -10,7 +10,7 @@ import Foundation
 
 public typealias Coordinate = (x: Int, y: Int)
 
-public class QuadTree {
+public class QuadTree : NSObject {
     final let nw: HashedTreeNode!     //IMMUTABLE.
     final let ne: HashedTreeNode!     //IMMUTABLE. unsafePointer(to:) requires the parameter to be mutable.
     final let sw: HashedTreeNode!     //IMMUTABLE.
@@ -81,14 +81,14 @@ public class QuadTree {
 public extension HashedTreeNode {
 
     //returns the string representation of this node.
-    public var str: String {
+    var str: String {
         if lev == 0 {
             return pop > 0 ? "+" : "-"
         }
         return nw.str + ne.str + "\n" + sw.str + se.str + "\n"
     }
 
-    public func setNodeAt(x: Int, y: Int, to isAlive: Bool) -> HashedTreeNode {
+    func setNodeAt(x: Int, y: Int, to isAlive: Bool) -> HashedTreeNode {
         if self.lev == 0 {
             return self.initGhost(isAlive: isAlive)
         }
